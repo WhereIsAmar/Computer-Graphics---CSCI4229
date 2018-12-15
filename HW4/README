@@ -1,0 +1,26 @@
+I have the orthogonal, perspective, and first person implementations.
+
+---- HOW TO COMPILE ----
+ Via the Terminal
+
+1)make clean
+2)make
+
+then run the corresponding object file HW4_patel.o
+
+3)./HW4_patel
+
+Some useful key bindings:
+ m             Switch the Perspective Mode (Perspective or Orthogonal or First Person)
+
+ +/-           Controls our field of view
+
+ Arrow Keys    Move around the scene and changing angles as you go
+ W,A,S,D keys  When in first person will allow one to move around
+ i/j           Increase or Decrease the Dim variable
+ 0             Reset overall view, will clear the view matrix
+ ESC           Leave the program
+
+
+
+

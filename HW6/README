@@ -1,0 +1,47 @@
+Created by Amar Patel
+
+Project took 6 hours
+
+With code from In-Class exercises to lay framework for Textures
+
+Using textures from various sources and lighting normals on cubes and triangles.
+To create a dynamic scene that is engaging and smooth.
+
+Created a simple building with a door and back entrances.
+
+---- HOW TO COMPILE ----
+ Via the Terminal
+
+1)make clean
+2)make
+
+then run the corresponding object file hw6.o
+
+3)./hw6
+
+
+-------------  m          Switch the Perspective Mode (Perspective or Orthogonal or First Person)
+
+-------------  +/-          Controls our field of view
+
+-------------  Arrow Keys    Move around the scene and chaging angles as you go
+-------------- G,V,B,N keys  When in first person will allow one to move around
+-------------  i/j          Increase or Decrease the Dim
+-------------  0            Reset overall view, will clear the view matrix
+-------------  ESC          Leave the program
+-------------- X            Will display the axes
+
+Light Controls
+-------------- a/A - decrease & increase ambient light
+-------------- d/D - decrease & increase diffusion light
+-------------- s/S - decrease & increase specular light
+-------------- e/E - decrease & increase emitted light
+-------------- n/N - decrease & increase shininess
+-------------- k/K - decrease & increase the elevation of the light
+-------------- < > move the light once q is pressed
+
+
+Toggling Light:
+-------------- q Pause the light and then be able to move it
+-------------- l Enable and disable light
+*/

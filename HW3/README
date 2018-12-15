@@ -1,0 +1,36 @@
+This 3-D is not necessarily how a traditional home would be modeled today.
+However, I thought it would be interesting to manipulate the traditional version of a roof. I added two structural supports to raise the roof as can be seen from my scene.
+
+I aim to add more details in the future and create a more intriguing scene.
+
+I have a generic instance of a cube and additional cubes are constructed with GL_QUAD primitives. I just call the buildingFrame() function with the different dimensions and colors. This results in each of the houses buildings for my scene.
+
+
+
+It took about 7 hours to learn how start connecting the vertices and understand the concepts.
+
+
+
+---- HOW TO COMPILE ----
+ Via the Terminal
+
+1)make clean
+2)make
+
+then run the corresponding object file HW3_patel.o
+
+3)./HW3_patel
+
+Some useful key bindings:
+ m          	Switch the Perspective Mode (Perspective or Orthogonal)
+
+ +/-          	Controls our field of view
+
+ Arrow Keys    	Move around the scene and chaging angles as you go
+ i/d        	Increase or Decrease the zoom perspective
+ 0          	Reset view
+ ESC        	Leave the program
+
+
+
+

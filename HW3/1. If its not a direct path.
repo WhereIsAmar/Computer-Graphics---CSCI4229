@@ -1,0 +1,27 @@
+1. If its not a direct path.
+2. Role of position error
+3. Role of the heading error not weighted as heavily until the end.
+4. Bearing error 
+	If the destination is the opposite direction of your heading (where you started). Because heading alone cannot take us to the correct location. 
+
+
+	A plane would have to be facing the direction its going to land to be properly.
+
+		errors -> speed -> odometry
+		Make sure were facing the right direction
+		That it continues to head towards the final destination
+
+The feedback controller has been implemented
+
+5. We used the equations 3.6.1 - 3.64 from page 64. Coupled with the built in constants
+to adjust the wheel speed.
+6. Calibration issue. 
+7. Plug in the actual values into the equation. Jon will email us...
+8.	Gain constants, p1, p2, p3 -> If altered
+9.	Its only going to either be really straight or just focused on turns.
+10. We have no implementation it will just push against the object...
+11. See the object go like to a new coordinate. Under a stack when you reach the next coordinate you can just restart the calls to the proportional feedback controller.
+12. Set the coordinate to extend to an extended x position. Keep the same y. Just extend past the obstacle.
+13. Team alpha.
+14. 9 hours.
+

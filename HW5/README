@@ -1,0 +1,49 @@
+I have the orthogonal, perspective, and first person implementations.
+
+This project took about 11 hours.
+
+
+
+
+---- HOW TO COMPILE ----
+ Via the Terminal
+
+1)make clean
+2)make
+
+then run the corresponding object file hw5.o
+
+3)./hw5
+
+
+
+
+/*
+-------------  m          Switch the Perspective Mode (Perspective or Orthogonal or First Person)
+
+-------------  +/-          Controls our field of view
+
+-------------  Arrow Keys    Move around the scene and chaging angles as you go
+-------------- G,V,B,N keys  When in first person will allow one to move around
+-------------  i/j          Increase or Decrease the Dim
+-------------  0            Reset overall view, will clear the view matrix
+-------------  ESC          Leave the program
+-------------- X            Will display the axes
+
+Light Controls
+-------------- a/A - decrease & increase ambient light
+-------------- d/D - decrease & increase diffusion light
+-------------- s/S - decrease & increase specular light
+-------------- e/E - decrease & increase emitted light
+-------------- n/N - decrease & increase shininess
+-------------- < > move the light once q is pressed
+
+
+Toggling Light:
+-------------- q Pause the light and then be able to move it
+-------------- l Enable and disable light
+*/
+
+
+
+
